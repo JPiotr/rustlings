@@ -4,6 +4,7 @@ fn main() {
     // Note the _single_ quotes, these are different from the double quotes
     // you've been seeing around.
     let my_first_initial = 'C';
+    let your_character = '🫡';
     if my_first_initial.is_alphabetic() {
         println!("Alphabetical!");
     } else if my_first_initial.is_numeric() {
@@ -12,7 +13,7 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    // TODO: Analogous to the example before, declare a variable called `your_character`
+    // DONE: Analogous to the example before, declare a variable called `your_character`
     // below with your favorite character.
     // Try a letter, try a digit (in single quotes), try a special character, try a character
     // from a different language than your own, try an emoji 😉
